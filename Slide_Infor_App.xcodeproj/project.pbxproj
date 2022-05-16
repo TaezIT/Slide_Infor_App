@@ -13,6 +13,13 @@
 		8F065D8D2831380A006CA560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F065D8B2831380A006CA560 /* Main.storyboard */; };
 		8F065D8F2831380B006CA560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F065D8E2831380B006CA560 /* Assets.xcassets */; };
 		8F065D922831380B006CA560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F065D902831380B006CA560 /* LaunchScreen.storyboard */; };
+		8F065D9D283138C7006CA560 /* SignUpScreenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F065D9B283138C7006CA560 /* SignUpScreenCollectionViewCell.swift */; };
+		8F065D9E283138C7006CA560 /* SignUpScreenCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F065D9C283138C7006CA560 /* SignUpScreenCollectionViewCell.xib */; };
+		8F065DA128313AE5006CA560 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F065DA028313AE5006CA560 /* NunitoSans-Bold.ttf */; };
+		8F065DA328316771006CA560 /* ModelSignUpCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F065DA228316771006CA560 /* ModelSignUpCollectionView.swift */; };
+		8F065DA528316DBC006CA560 /* ExtensionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F065DA428316DBC006CA560 /* ExtensionButton.swift */; };
+		8F065DA82831719F006CA560 /* ExtensionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F065DA72831719F006CA560 /* ExtensionLabel.swift */; };
+		8F065DAA28317283006CA560 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F065DA928317283006CA560 /* NunitoSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		8F065D8E2831380B006CA560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F065D912831380B006CA560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F065D932831380B006CA560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F065D9B283138C7006CA560 /* SignUpScreenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenCollectionViewCell.swift; sourceTree = "<group>"; };
+		8F065D9C283138C7006CA560 /* SignUpScreenCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpScreenCollectionViewCell.xib; sourceTree = "<group>"; };
+		8F065DA028313AE5006CA560 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		8F065DA228316771006CA560 /* ModelSignUpCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSignUpCollectionView.swift; sourceTree = "<group>"; };
+		8F065DA428316DBC006CA560 /* ExtensionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionButton.swift; sourceTree = "<group>"; };
+		8F065DA72831719F006CA560 /* ExtensionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionLabel.swift; sourceTree = "<group>"; };
+		8F065DA928317283006CA560 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,10 @@
 		8F065D792831380A006CA560 = {
 			isa = PBXGroup;
 			children = (
+				8F065DA628316DC1006CA560 /* Extension */,
+				8F065D9A2831387F006CA560 /* Models */,
+				8F065D9F28313AD0006CA560 /* Font */,
+				8F065D9928313872006CA560 /* CollectionView */,
 				8F065D842831380A006CA560 /* Slide_Infor_App */,
 				8F065D832831380A006CA560 /* Products */,
 			);
@@ -65,6 +83,41 @@
 				8F065D932831380B006CA560 /* Info.plist */,
 			);
 			path = Slide_Infor_App;
+			sourceTree = "<group>";
+		};
+		8F065D9928313872006CA560 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				8F065D9B283138C7006CA560 /* SignUpScreenCollectionViewCell.swift */,
+				8F065D9C283138C7006CA560 /* SignUpScreenCollectionViewCell.xib */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		8F065D9A2831387F006CA560 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F065DA228316771006CA560 /* ModelSignUpCollectionView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F065D9F28313AD0006CA560 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8F065DA928317283006CA560 /* NunitoSans-Regular.ttf */,
+				8F065DA028313AE5006CA560 /* NunitoSans-Bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8F065DA628316DC1006CA560 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8F065DA428316DBC006CA560 /* ExtensionButton.swift */,
+				8F065DA72831719F006CA560 /* ExtensionLabel.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +178,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F065D9E283138C7006CA560 /* SignUpScreenCollectionViewCell.xib in Resources */,
+				8F065DAA28317283006CA560 /* NunitoSans-Regular.ttf in Resources */,
 				8F065D922831380B006CA560 /* LaunchScreen.storyboard in Resources */,
 				8F065D8F2831380B006CA560 /* Assets.xcassets in Resources */,
+				8F065DA128313AE5006CA560 /* NunitoSans-Bold.ttf in Resources */,
 				8F065D8D2831380A006CA560 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +194,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F065DA82831719F006CA560 /* ExtensionLabel.swift in Sources */,
+				8F065D9D283138C7006CA560 /* SignUpScreenCollectionViewCell.swift in Sources */,
+				8F065DA528316DBC006CA560 /* ExtensionButton.swift in Sources */,
 				8F065D8A2831380A006CA560 /* ViewController.swift in Sources */,
 				8F065D862831380A006CA560 /* AppDelegate.swift in Sources */,
 				8F065D882831380A006CA560 /* SceneDelegate.swift in Sources */,
+				8F065DA328316771006CA560 /* ModelSignUpCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
